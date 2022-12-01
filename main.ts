@@ -15,10 +15,10 @@ input.onGesture(Gesture.TiltLeft, function () {
 	
 })
 input.onGesture(Gesture.ScreenUp, function () {
-    radio.sendMessage(RadioMessage.forward)
+	
 })
 input.onButtonPressed(Button.AB, function () {
-    radio.sendMessage(RadioMessage.backwards)
+    radio.sendMessage(RadioMessage.forward)
 })
 input.onButtonPressed(Button.B, function () {
     radio.sendMessage(RadioMessage.right)
@@ -27,3 +27,8 @@ input.onGesture(Gesture.TiltRight, function () {
 	
 })
 radio.setGroup(99)
+basic.forever(function () {
+    if (true) {
+    	
+    }
+})
